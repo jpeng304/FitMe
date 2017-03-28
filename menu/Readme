@@ -1,0 +1,2 @@
+Need to make a new android resource directory at the res folder and name the new android resource directory as menu.
+And just copy the menu_main.xml into the menu folder.
