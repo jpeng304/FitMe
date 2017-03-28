@@ -1,0 +1,4 @@
+Need to copy and paste the attrs.xml into the values folder of the res resource file.
+For the colors.xml, just copy and paste the difference on colors.xml on to your project and the downloaded one. 
+For the strings.xml, just added the difference on the strings.xml on to your project. 
+For, the styles.xml, just make the styles.xml in the project the same as the downloaded one. 
