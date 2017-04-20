@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    -
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gray_metal"
+    tools:context="com.example.campususer.fitme.MActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/findBuddyButton"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/userTextView"
+                android:background="@drawable/gray_metal"
+                android:fadeScrollbars="false"
+                android:gravity="center"
+                android:onClick="findBuddyButtonClicked"
+                android:text="Find Buddy"
+                android:textColorLink="@android:color/background_dark"
+                android:textSize="30dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/workoutButton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/findBuddyButton"
+                android:color="@drawable/gray_metal"
+                android:gravity="center"
+                android:onClick="workoutButtonClicked"
+                android:text="Create Workout(s)"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/displayWorkout"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_below="@+id/workoutButton"
+                android:background="@drawable/gray_metal"
+                android:gravity="center"
+                android:onClick="displayWorkoutClicked"
+                android:text="Display Workout"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/signOutButton"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gray_metal"
+                android:gravity="center"
+                android:onClick="signOutButtonClicked"
+                android:text="Sign Out"
+                android:textSize="30dp"
+                android:textColorLink="@android:color/background_dark" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
